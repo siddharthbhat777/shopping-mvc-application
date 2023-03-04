@@ -1,0 +1,38 @@
+{
+  "name": "module-29-deployment",
+  "version": "1.0.0",
+  "description": "Deployment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=production&&set MONGO_USER=node-learning-app&&set MONGO_PASSWORD=SidB2023&&set MONGO_DEFAULT_DATABASE=shop&&set STRIPE_KEY=sk_test_51MeAlHSHVA7qFsmuchzBdTKJJ3TxIJpTwxFyQjulVRTyNcOSiQY4bkVIaV78SrBDZrVrJDnKfRKZxoEv8r0JEh1a00uv2fePkS&&node app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Siddharth Bhat",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.3",
+    "helmet": "^6.0.1",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pdfkit": "^0.13.0",
+    "stripe": "^11.11.0"
+  }
+}
