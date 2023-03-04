@@ -1,7 +1,7 @@
 {
-  "name": "module-29-deployment",
+  "name": "shopping-mvc-application",
   "version": "1.0.0",
-  "description": "Deployment",
+  "description": "Shopping MVC App",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
